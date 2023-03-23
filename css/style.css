@@ -8,19 +8,36 @@
 .slider {
     position: relative;
     width: 70%;
-}
-
-.slider-items {
-    width: 100%;
     height: 70vh;
 }
 
-.item {
+.slider-jumbotron {
+    width: 80%;
+    height: 100%;
+}
+
+.jumbotron-item {
     height: 100%;
     display: none;
 }
 
-.item img {
+.jumbotron-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.lateral-slide {
+    width: 20%;
+    height: 100%;
+}
+
+.slider-item {
+    width: 100%;
+    height: 14vh;
+}
+
+.slider-item img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -30,7 +47,7 @@
 .up,
 .down {
     position: absolute;
-    left: 50%;
+    left: 90%;
     transform: translateX(-50%);
     background-color: rgba(255, 255, 255, .6);
     border-radius: 50%;
@@ -58,4 +75,8 @@
 
 .hidden {
     display: none;
+}
+
+.current-border {
+    border: 2px solid white;
 }
