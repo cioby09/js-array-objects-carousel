@@ -27,6 +27,19 @@
     object-fit: cover;
 }
 
+.info {
+    width: 80%;
+    height: 100%;
+    position: absolute;
+}
+
+.game-info {
+    padding-right: 10px;
+    text-align: end;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
 .lateral-slide {
     width: 20%;
     height: 100%;
